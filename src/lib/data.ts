@@ -1,4 +1,4 @@
-import type { Counsellor, JournalEntry, CommunityPost, MoodEntry, SleepEntry } from './types';
+import type { Counsellor, JournalEntry, CommunityPost, MoodEntry, SleepEntry, RelaxationSound } from './types';
 
 export const motivationalQuotes: string[] = [
   "It's okay not to be okay. It's a part of being human.",
@@ -28,13 +28,13 @@ export const communityPosts: CommunityPost[] = [
   { id: '3', author: 'AnxiousAndy', timestamp: '1 week ago', tag: 'Anxiety', title: 'Feeling anxious about going to school', content: 'Lately I get this knot in my stomach just thinking about school. It\'s not like anything bad is happening, but I just feel this dread. Is this normal?', replies: 15 }
 ];
 
-export const relaxationSounds = [
-    { id: 'white-noise', name: 'White Noise', description: 'Blocks out distractions', imageId: 'white-noise' },
-    { id: 'pink-noise', name: 'Pink Noise', description: 'Deeper and more balanced', imageId: 'pink-noise' },
-    { id: 'brown-noise', name: 'Brown Noise', description: 'Lower, rumbling sound', imageId: 'brown-noise' },
-    { id: 'ocean', name: 'Ocean Waves', description: 'Calming crash of waves', imageId: 'ocean' },
-    { id: 'rain', name: 'Gentle Rain', description: 'Soothing pitter-patter', imageId: 'rain' },
-    { id: 'forest', name: 'Forest Ambience', description: 'Peaceful sounds of nature', imageId: 'forest' },
+export const relaxationSounds: RelaxationSound[] = [
+    { id: 'white-noise', name: 'White Noise', description: 'Blocks out distractions', imageId: 'white-noise', audioUrl: 'https://firebasestorage.googleapis.com/v0/b/prototyper-52702.appspot.com/o/white-noise.mp3?alt=media&token=963b5736-156d-49d7-b30a-62f790c885e3' },
+    { id: 'pink-noise', name: 'Pink Noise', description: 'Deeper and more balanced', imageId: 'pink-noise', audioUrl: 'https://firebasestorage.googleapis.com/v0/b/prototyper-52702.appspot.com/o/pink-noise.mp3?alt=media&token=d160e1d5-c543-42e5-8208-373c3831853d' },
+    { id: 'brown-noise', name: 'Brown Noise', description: 'Lower, rumbling sound', imageId: 'brown-noise', audioUrl: 'https://firebasestorage.googleapis.com/v0/b/prototyper-52702.appspot.com/o/brown-noise.mp3?alt=media&token=2b363683-2d2d-4869-8b01-31b033604f81' },
+    { id: 'ocean', name: 'Ocean Waves', description: 'Calming crash of waves', imageId: 'ocean', audioUrl: 'https://firebasestorage.googleapis.com/v0/b/prototyper-52702.appspot.com/o/ocean-waves.mp3?alt=media&token=a8c38f2b-8c88-4667-a068-76985a9740a6' },
+    { id: 'rain', name: 'Gentle Rain', description: 'Soothing pitter-patter', imageId: 'rain', audioUrl: 'https://firebasestorage.googleapis.com/v0/b/prototyper-52702.appspot.com/o/gentle-rain.mp3?alt=media&token=6a053c9e-f446-4e55-873b-b6d396a1a1f4' },
+    { id: 'forest', name: 'Forest Ambience', description: 'Peaceful sounds of nature', imageId: 'forest', audioUrl: 'https://firebasestorage.googleapis.com/v0/b/prototyper-52702.appspot.com/o/forest-ambience.mp3?alt=media&token=3897b2d7-b125-46b5-8246-13a828a2a7a4' },
 ];
 
 export const breathingExercises = [

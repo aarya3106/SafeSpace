@@ -33,3 +33,11 @@ export interface SleepEntry {
   hours: number;
   quality: number;
 }
+
+export interface RelaxationSound {
+  id: string;
+  name: string;
+  description: string;
+  imageId: string;
+  audioUrl: string;
+}
