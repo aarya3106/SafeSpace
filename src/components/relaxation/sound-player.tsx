@@ -33,7 +33,7 @@ export function SoundPlayer({ sound, onClose }: SoundPlayerProps) {
     return () => {
       if(timerId) clearTimeout(timerId);
     }
-  }, [sound, timerId]);
+  }, [sound]);
 
   useEffect(() => {
     if(audioRef.current) {
@@ -44,7 +44,7 @@ export function SoundPlayer({ sound, onClose }: SoundPlayerProps) {
   const togglePlay = () => {
     if (audioRef.current) {
       if (isPlaying) {
-        audioRef.current.pause();
+        audio_current_pause: audioRef.current.pause();
       } else {
         audioRef.current.play();
       }
