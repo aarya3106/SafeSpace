@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "ocean",
+      "description": "Waves gently lapping on a sandy shore.",
+      "imageUrl": "https://images.unsplash.com/photo-1752240237593-2c7c4e14a122?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvY2VhbiUyMHNob3JlfGVufDB8fHx8MTc2MTQ4MTUxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ocean shore"
+    },
+    {
+      "id": "rain",
+      "description": "Raindrops on a window pane looking out at a garden.",
+      "imageUrl": "https://images.unsplash.com/photo-1631816591249-ba33dde81a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYWluJTIwd2luZG93fGVufDB8fHx8MTc2MTQ1NzMwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rain window"
+    },
+    {
+      "id": "forest",
+      "description": "Sunlight filtering through the canopy of a lush green forest.",
+      "imageUrl": "https://images.unsplash.com/photo-1601727104343-26f299e5a804?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmb3Jlc3QlMjBzdW58ZW58MHx8fHwxNzYxMzc5OTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "forest sun"
+    },
+    {
+      "id": "white-noise",
+      "description": "Abstract static pattern representing white noise.",
+      "imageUrl": "https://images.unsplash.com/photo-1754412323794-53262444a2c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHN0YXRpY3xlbnwwfHx8fDE3NjE0MDg4NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract static"
+    },
+    {
+      "id": "pink-noise",
+      "description": "Soft gradient of pink and white.",
+      "imageUrl": "https://images.unsplash.com/photo-1548504778-b14db6c34b04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaW5rJTIwZ3JhZGllbnR8ZW58MHx8fHwxNzYxNDgxNTExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pink gradient"
+    },
+    {
+      "id": "brown-noise",
+      "description": "Deep, rich brown and earthy tones in a soft texture.",
+      "imageUrl": "https://images.unsplash.com/photo-1538645731800-4640c639bba7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxicm93biUyMHRleHR1cmV8ZW58MHx8fHwxNzYxNDgxNTExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brown texture"
+    }
+  ]
 }
