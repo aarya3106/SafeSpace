@@ -12,7 +12,8 @@ import { Badge } from "@/components/ui/badge";
 import { PlusCircle, Search, BrainCircuit, Sparkles } from "lucide-react";
 import type { JournalEntry } from "@/lib/types";
 import { useToast } from "@/hooks/use-toast";
-import { analyzeJournalEntrySentiment, generateStartingJournalEntry } from "@/ai/flows";
+import { analyzeJournalEntrySentiment } from "@/ai/flows/journal-entry-sentiment-analysis";
+import { generateStartingJournalEntry } from "@/ai/flows/generate-starting-journal-entry";
 
 interface JournalViewProps {
   initialEntries: JournalEntry[];

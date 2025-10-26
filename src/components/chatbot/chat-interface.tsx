@@ -8,7 +8,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Send, Sparkles, Bot, User } from 'lucide-react';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { useToast } from '@/hooks/use-toast';
-import { chatbotPersonalizedRecommendations } from '@/ai/flows';
+import { chatbotPersonalizedRecommendations } from '@/ai/flows/chatbot-personalized-recommendations';
 import { UrgentHelpModal } from '../shared/urgent-help-modal';
 
 interface Message {
